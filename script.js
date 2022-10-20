@@ -1,6 +1,7 @@
 document.cookie = "cookie1=soo; SameSite=Lax";
 document.cookie = "cookie2=soo";
 document.cookie = "cookie3=hoo; SameSite=None;Secure";
+
 const searchBtn = document.getElementById("search-btn");
 const mealList = document.getElementById("meal");
 const mealDetailsContent = document.querySelector(".meal-details-content");
