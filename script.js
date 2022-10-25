@@ -1,3 +1,5 @@
+import API_KEY from "./apikey.js";
+console.log("111111", API_KEY);
 document.cookie = "cookie1=soo; SameSite=Lax";
 document.cookie = "cookie2=soo";
 document.cookie = "cookie3=hoo; SameSite=None;Secure";
@@ -6,8 +8,7 @@ const searchBtn = document.getElementById("search-btn");
 const mealList = document.getElementById("meal");
 const mealDetailsContent = document.querySelector(".meal-details-content");
 const recipeCloseBtn = document.getElementById("recipe-close-btn");
-const API_KEY = config.apikey;
-
+// const API_KEY = config.apikey;
 // event listeners
 searchBtn.addEventListener("click", getMealList);
 mealList.addEventListener("click", getMealRecipe);
